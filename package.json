@@ -1,32 +1,7 @@
 {
-  "_from": "react-icon-picker@^1.0.0",
-  "_id": "react-icon-picker@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha1-opXkPQxlpGEoAGbVZY9bBXzcL24=",
-  "_location": "/react-icon-picker",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "react-icon-picker@^1.0.0",
-    "name": "react-icon-picker",
-    "escapedName": "react-icon-picker",
-    "rawSpec": "^1.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^1.0.0"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://mednetartifacts.jfrog.io/mednetartifacts/api/npm/imednet-npm/react-icon-picker/-/react-icon-picker-1.0.0.tgz",
-  "_shasum": "a295e43d0c65a461280066d5658f5b057cdc2f6e",
-  "_spec": "react-icon-picker@^1.0.0",
-  "_where": "/Users/kconnor/Documents/repos/imednet/react",
   "author": {
-    "name": "steelydylan"
+    "name": "kevinpaulconnor"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
@@ -34,7 +9,7 @@
     "styled-components": "^4.2.0"
   },
   "deprecated": false,
-  "description": "## Screen Capture",
+  "description": "simple react icon picker",
   "devDependencies": {
     "@types/react-dom": "^16.8.4",
     "awesome-typescript-loader": "^5.2.1",
@@ -48,10 +23,10 @@
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.5"
   },
-  "keywords": [],
-  "license": "ISC",
+  "keywords": ["react", "icon", "picker", "font-awesome"],
+  "license": "MIT",
   "main": "lib/index.js",
-  "name": "react-icon-picker",
+  "name": "kpc-react-icon-picker",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "build:lib": "tsc",

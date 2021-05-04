@@ -1,8 +1,7 @@
 # React IconPicker
 
-## Screen Capture
-
-![](./screen-shot.png)
+Forked from https://www.npmjs.com/package/react-icon-picker
+for bugfix
 
 
 ## Usage
